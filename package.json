@@ -3,9 +3,9 @@
   "version": "2.0.0",
   "description": "GAP-R HVAC",
   "scripts": {
-    "clean": "rimraf public src/css/styles.css",
+    "clean": "rm -rf public src/css/styles.css",
     "dev": "npm run clean && postcss src/css/tailwind.css > src/css/styles.css && eleventy --serve",
-    "build": "npm run clean && cross-env NODE_ENV=production postcss src/css/tailwind.css > src/css/styles.css && eleventy"
+    "build": "npm run clean && NODE_ENV=production postcss src/css/tailwind.css > src/css/styles.css && eleventy"
   },
   "repository": {
     "type": "git",
