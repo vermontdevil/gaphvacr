@@ -23,7 +23,7 @@
   "bugs": {
     "url": "https://github.com/vermontdevil/gaphvacr/issues"
   },
-  "homepage": "https://github.com/vermontdevil/gaphvacr",
+  "homepage": "https://www.gaphvac-r.com/",
   "devDependencies": {
     "@11ty/eleventy": "^0.11.1",
     "autoprefixer": "^10.0.2",
@@ -34,6 +34,5 @@
     "tailwindcss": "^2.0.1"
   },
   "dependencies": {
-    "rimraf": "^3.0.2"
   }
 }
